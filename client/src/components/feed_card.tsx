@@ -139,6 +139,6 @@ export function FeedCard({ id, slug, title, avatar, draft, listed, top, summary,
             </div>
         </div>
     );
+return preview ? body : <Link href={`/feed/${(arguments[0] as any).slug || id}`} target="_blank" className="block w-full">{body}</Link>;
 
-    return preview ? body : <Link href={`/feed/${slug || id}`} target="_blank" className="block w-full">{body}</Link>;
 }
