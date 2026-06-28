@@ -291,7 +291,7 @@ export function FeedPage({ id, TOC, clean }: { id: string, TOC: () => JSX.Elemen
                   )}
                   <div className="flex flex-row items-center">
                     <img
-                      src={feed.user.avatar || "https://img.bambooflooring.net/file/1782629851450.webp"}
+                      src={feed.user.avatar || "https://www.bambooindustry.com/img/logo2026.png"}
                       className="w-8 h-8 rounded-full"
                     />
                     <div className="ml-2">
